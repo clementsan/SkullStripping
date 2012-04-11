@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+  <category>UNC</category>
+  <title>Skull stripping</title>
+  <description>
+  Performs skull-stripping using tissue segmentation label map
+  </description>
+  <version>1.0</version>
+  <documentation-url></documentation-url>
+  <license></license>
+  <contributor>Clement Vachet</contributor>
+
+  <parameters>
+    <label>I/O Parameters</label>
+    <description>I/O Parameters</description>
+
+    <image>
+      <name>inputImage</name>
+      <longflag>inputImage</longflag>
+      <channel>input</channel>
+      <description>input T1w Image</description>
+      <label>input T1w Image</label>
+    </image>
+
+    <image>
+      <name>labelImage</name>
+      <longflag>labelImage</longflag>
+      <channel>input</channel>
+      <description>label Image</description>
+      <label>label Image</label>
+    </image>
+
+    <image>
+      <name>outputImage</name>
+      <longflag>outputImage</longflag>
+      <channel>output</channel>
+      <description>output T1w Image</description>
+      <label>output T1w Image</label>
+    </image>
+
+  </parameters>
+
+</executable>
